@@ -23,9 +23,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/scripts/common.js",
+              "src/assets/scripts/onScrollBinding.js",
+              "src/assets/scripts/stickyNav.js",
+              "src/assets/scripts/bgFading.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {

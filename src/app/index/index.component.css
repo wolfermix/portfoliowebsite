@@ -1,0 +1,93 @@
+.parallax-container{
+
+  height: 100%;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index: -1;
+}
+
+#logo > h1{
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+#logo{
+  background-image: url("../../assets/images/main_bg.JPG");
+}
+
+#mobile-dev-photo{
+  background-image: url("../../assets/images/img_parallax.jpg");
+}
+
+#web-dev-photo{
+  background-image: url("../../assets/images/main_bg.JPG");
+}
+
+#program-dev-photo{
+  background-image: url("../../assets/images/img_parallax.jpg");
+}
+
+.index-text-entry{
+  height: auto;
+  margin: 20px;
+}
+
+.text-entry-content{
+  font-size: large;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.parallax-container-with-fading{
+
+  height: 50%;
+  width: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.5;
+  transition: opacity 1000ms;
+
+}
+
+.onScrollingFaded{
+  transition: opacity 1000ms;
+  opacity: 1.0;
+}
+
+.text-entry-title{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.text-entry-content{
+  padding: 10px;
+  text-align: center;
+}
+
+.text-entry-icon{
+  text-align: right;
+}
+
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 768px) {
+  .text-entry-icon{
+    display: none;
+  }
+}*/
+
+.text-entry{
+  display: flex;
+}
+
